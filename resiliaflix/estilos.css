@@ -9,6 +9,8 @@ body {
     background: #CCCCCC;
 }
 
+/********************** Cabeçalho  ****************************/
+
 .menu {
     width: 100%;
     height: 30px;
@@ -42,16 +44,34 @@ body {
     font-size: 14px;
     color: black;
 }
+/********************** Conteúdo  ****************************/
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+.conteudo-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.conteudo img {
+    margin: 0.5%;
+}
+
+
+/********************** Footer  ****************************/
 
 .footer {
     background: black;
-    position: absolute;
     bottom: 0;
     width: 100%;
     
     
 }
-.container {
+.footer-container {
     justify-content: center;
     display: flex;
 }
